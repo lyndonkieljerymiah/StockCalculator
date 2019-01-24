@@ -1,0 +1,12 @@
+C:\Users\arnold.mercado\Source\Repos\StockCalculator\StockCalculator\StockCalculator\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\arnold.mercado\Source\Repos\StockCalculator\StockCalculator\StockCalculator\obj\Debug\netstandard2.0\Pages\MainPage.xaml.g.cs
+C:\Users\arnold.mercado\Source\Repos\StockCalculator\StockCalculator\StockCalculator\obj\Debug\netstandard2.0\StockCalculator.csproj.CoreCompileInputs.cache
+C:\Users\arnold.mercado\Source\Repos\StockCalculator\StockCalculator\StockCalculator\obj\Debug\netstandard2.0\StockCalculator.AssemblyInfoInputs.cache
+C:\Users\arnold.mercado\Source\Repos\StockCalculator\StockCalculator\StockCalculator\obj\Debug\netstandard2.0\StockCalculator.AssemblyInfo.cs
+C:\Users\arnold.mercado\Source\Repos\StockCalculator\StockCalculator\StockCalculator\obj\Debug\netstandard2.0\StockCalculator.dll
+C:\Users\arnold.mercado\Source\Repos\StockCalculator\StockCalculator\StockCalculator\obj\Debug\netstandard2.0\StockCalculator.pdb
+C:\Users\arnold.mercado\Source\Repos\StockCalculator\StockCalculator\StockCalculator\bin\Debug\netstandard2.0\StockCalculator.deps.json
+C:\Users\arnold.mercado\Source\Repos\StockCalculator\StockCalculator\StockCalculator\bin\Debug\netstandard2.0\StockCalculator.dll
+C:\Users\arnold.mercado\Source\Repos\StockCalculator\StockCalculator\StockCalculator\bin\Debug\netstandard2.0\StockCalculator.pdb
+C:\Users\arnold.mercado\Source\Repos\StockCalculator\StockCalculator\StockCalculator\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\arnold.mercado\Source\Repos\StockCalculator\StockCalculator\StockCalculator\obj\Debug\netstandard2.0\StockCalculator.csprojAssemblyReference.cache

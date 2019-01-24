@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StockCalculator.Pages.MainPage">
+    <ContentPage.Resources>
+        <Style x:Key="lblInput" TargetType="Label">
+            <Setter Property="WidthRequest" Value="150"/>
+            <Setter Property="FontSize" Value="20"/>
+        </Style>
+        <Style x:Key="input" TargetType="Entry">
+            <Setter Property="WidthRequest" Value="150"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="HorizontalTextAlignment" Value="End"/>
+        </Style>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="{Binding Title}"
+                HorizontalOptions="CenterAndExpand" 
+                   FontSize="24" />
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Enter Buy:"
+                       Style="{StaticResource lblInput}"/>
+                <Entry 
+                    Placeholder="Enter Buy" 
+                    Text="{Binding BuyEntry, Mode=TwoWay}"  
+                    Style="{StaticResource input}"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Enter Sell:"  
+                       Style="{StaticResource lblInput}"/>
+                <Entry 
+                    Placeholder="Enter Sell" 
+                    Text="{Binding SellEntry, Mode=TwoWay}" 
+                    Style="{StaticResource input}" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Enter Qty:" 
+                       WidthRequest="150"
+                       FontSize="20"/>
+                <Entry Placeholder="Enter Lot to Sell" 
+                       Text="{Binding LotEntry, Mode=TwoWay}" 
+                       WidthRequest="150"
+                       HorizontalTextAlignment="End"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Total Profit:" WidthRequest="150"  FontSize="20"/>
+                <Label Text="{Binding TotalProfit, Mode=OneWay, StringFormat='{0:C}'}" 
+                       FontSize="20" WidthRequest="150" 
+                       HorizontalTextAlignment="End" 
+                       FontAttributes="Bold"/>
+            </StackLayout>
+            <Button Command="{Binding CalculateStockCommand}" Text="Calculate"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
